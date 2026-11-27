@@ -2,7 +2,7 @@
 
 [![Website](https://img.shields.io/badge/web-asemota.ch-0F172A?style=flat-square&logo=google-chrome&logoColor=white)](https://asemota.ch/)
 [![Sabi AI](https://img.shields.io/badge/ecosystem-sabiai.work-14B8A6?style=flat-square&logo=sparkles&logoColor=white)](https://sabiai.work/)
-[![Vibe Coding Guardrail](https://img.shields.io/badge/protocol-7--Phase%20FDD-6366F1?style=flat-square)](https://github.com/stefanasemota/vibe-coding-guardrail)
+[![Vibe Coding Guardrail](https://img.shields.io/badge/guardrail-v2.0%20Antigravity%20Plugin-6366F1?style=flat-square)](https://github.com/stefanasemota/vibe-coding-guardrail)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore%20%7C%20Auth%20%7C%20Hosting-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com/)
 [![Gemini](https://img.shields.io/badge/Gemini-AI%20Powered-8E75B2?style=flat-square&logo=google-gemini&logoColor=white)](https://deepmind.google/technologies/gemini/)
 
@@ -30,7 +30,9 @@
 
 ## 🛠️ Featured Open-Source & Core Libraries
 
-* **[`vibe-coding-guardrail`](https://github.com/stefanasemota/vibe-coding-guardrail)** — Engine-neutral **7-Phase Feature-Driven Development (FDD)** skill suite (`vibe-coder`, `aos-audit-project`, `aos-vibecode`, `aos-verify`, `aos-check-for-security-issues`) enforcing architectural checkpoints, Shift-Left repository layering, `decision.md` ADRs, and security gates in Google Antigravity.
+* **[`vibe-coding-guardrail`](https://github.com/stefanasemota/vibe-coding-guardrail)** — Zero-dependency **Python** plugin built natively for **Google Antigravity** (v2.0), pairing deterministic lifecycle hooks (`session_start`, `branch_guard`, `adr_check`) with a lean **3-Stage Loop** and **8 skills** (`vibe-coder`, `aos-vibecode`, `aos-verify`, `aos-check-for-security-issues`, `aos-audit-project`, `aos-vibecode-update`, plus vendored local `caveman` & `caveman-compress`).
+* **[`chyg`](https://github.com/stefanasemota/chyg)** — Zero-dependency macOS Python CLI/TUI to audit AI coding agent instruction files (`AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, and skill packs).
+* **[`shoplistingauditer`](https://github.com/stefanasemota/shoplistingauditer)** — Etsy v3 shop & listing review, 100-point SEO/conversion audit engine, atomic JSON patch optimizer, preview-diff dashboard, and Antigravity Plugin.
 * **[`sabi-auth-lib`](https://github.com/stefanasemota/sabi-auth-lib)** — Shared authentication & authorization library powering the Sabi microservice and web ecosystem.
 * **[`stripe-Core-Service`](https://github.com/stefanasemota/stripe-Core-Service)** — Core Stripe payment processing, webhook verification, and subscription service integration.
 * **[`sabi-logger`](https://github.com/stefanasemota/sabi-logger)** — Standardized structured logging utility across Sabi applications.
@@ -40,9 +42,9 @@
 ## 🧰 Core Tech Stack & Architecture Principles
 
 * **Frontend & SSR:** Next.js (App Router, Server Components, Server Actions), React, TypeScript (`strict`), Tailwind CSS, shadcn/ui, Framer Motion, MapLibre GL
-* **Backend & Cloud:** Firebase (App Hosting, Cloud Functions, Firestore, Realtime Database, Authentication), Node.js 22, Spring Boot / Java
-* **AI & Agentic Engineering:** Google Gemini, Firebase Genkit, Google Antigravity IDE & CLI, Engine-Neutral `SKILL.md` Orchestration
-* **Engineering Guardrails:** Shift-Left Repository Pattern (`src/repositories/`), Zod Schema-First Validation, Atomic Micro-Patches (`<= 50` lines), Immutable ADR Logging (`decision.md`)
+* **Backend & Cloud:** Firebase (App Hosting, Cloud Functions, Firestore, Realtime Database, Authentication), Python (`3.9+` zero-dependency stdlib), Node.js 22, Spring Boot / Java
+* **AI & Agentic Engineering:** Google Gemini, Firebase Genkit, Google Antigravity IDE & CLI, Native Antigravity Plugins (`plugin.json`, `hooks.json`, `SKILL.md`)
+* **Engineering Guardrails:** Deterministic Git & ADR Lifecycle Hooks, Shift-Left Repository Pattern (`src/repositories/`), Zod Schema-First Validation, Atomic Micro-Patches (`<= 50` lines), Immutable ADR Logging (`decision.md`)
 
 ---
 
